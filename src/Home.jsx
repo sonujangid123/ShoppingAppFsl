@@ -149,7 +149,8 @@ function Home() {
         <Routes>
           <Route path="/" element={<App />}></Route>
           <Route path="/Login" element={<Login />}></Route>
-          <Route path="/CreateAccount " element={<CreateAccount />}></Route>
+          <Route path="/CreateAccount" element={<CreateAccount />}></Route>
+         
 
           
           <Route path="/products" element={<Products />}></Route>

@@ -126,7 +126,6 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
-
 // Email and password validation regex
 const emailExp = /^[a-zA-Z0-9\.\_\-]+\@[a-zA-Z0-9]+\.[a-zA-Z]{2,5}$/;
 const passExp = /^[a-zA-Z0-9\!\@\#\$\%\^\&\*\(\)\_\-\+\/\>\<]{6,20}$/;
@@ -190,6 +189,7 @@ function Login() {
   return (
     <form onSubmit={handleSubmit}>
       <div>
+        <h2 className='heading1'>Login Accout</h2>
         <label>Email:</label>
         <input
           type="email"
